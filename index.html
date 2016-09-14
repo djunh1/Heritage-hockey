@@ -48,6 +48,12 @@
 <link href="_include/css/supersized.css" rel="stylesheet">
 <link href="_include/css/supersized.shutter.css" rel="stylesheet">
 
+<!-- Font Awesome -->
+<link href="_include/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+
+
 <!-- Google Font -->
 <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
 
@@ -104,7 +110,7 @@
         <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
         <ul id="slide-list"></ul>
         
-        <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
+        <a id="nextsection" href="#vision"><i class="font-icon-arrow-simple-down"></i></a>
     </div>
 </div>
 <!-- End Homepage Slider -->
@@ -121,7 +127,8 @@
         <nav id="menu">
         	<ul id="menu-nav">
             	<li class="current"><a href="#home-slider">Home</a></li>
-                <li><a href="#work">What we do</a></li>
+                <li><a href="#vision">The Vision</a></li>
+                <li><a href="#work">How it Works</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#contact">Contact</a></li>
 			
@@ -133,14 +140,15 @@
 <!-- End Header -->
 
 <!-- Our Work Section -->
-<div id="work" class="page">
+<div id="vision" class="page">
 	<div class="container">
     	<!-- Title Page -->
         <div class="row">
             <div class="span12">
                 <div class="title-page">
-                    <h2 class="title">Our Work</h2>
-                    <h3 class="title-description">Check Out Our Projects on <a href="#">Dribbble</a>.</h3>
+                    <h2 class="title">The Vision</h2>
+
+                    
                 </div>
             </div>
         </div>
@@ -149,135 +157,25 @@
         <!-- Portfolio Projects -->
         <div class="row">
         	<div class="span3">
-            	<!-- Filter -->
                 <nav id="options" class="work-nav">
                     <ul id="filters" class="option-set" data-option-key="filter">
-                    	<li class="type-work">Type of Work</li>
-                        <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
-                        <li><a href="#filter" data-option-value=".design">Design</a></li>
-                        <li><a href="#filter" data-option-value=".photography">Photography</a></li>
-                        <li><a href="#filter" data-option-value=".video">Video</a></li>
+                        <li class="features-text">Product Features:</li>
+                       
+                        <li><a href="#">Stick Ordering Made Simple</a></li>
+                        <li><a href="#">Customizable Flex</a></li>
+                        <li><a href="#">Low Weight</a></li>
+                        <li><a href="#">Blade Lie</a></li>
                     </ul>
-                </nav>
-                <!-- End Filter -->
+</nav>
             </div>
             
-            <div class="span9">
-            	<div class="row">
-                	<section id="projects">
-                    	<ul id="thumbs">
-                        
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The City" href="_include/img/work/full/image-01-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-01.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Office" href="_include/img/work/full/image-02-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-02.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 photography">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Mountains" href="_include/img/work/full/image-03-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-03.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 video">
-                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
-                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="http://vimeo.com/51460511">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-08.jpg" alt="Video">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 photography">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Sea" href="_include/img/work/full/image-04-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-04.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 photography">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Clouds" href="_include/img/work/full/image-05-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-05.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 video">
-                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
-                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Vimeo" href="http://vimeo.com/50834315">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-09.jpg" alt="Video">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Dark" href="_include/img/work/full/image-06-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-06.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" href="_include/img/work/full/image-07-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-07.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                        	<!-- End Item Project -->
-                        </ul>
-                    </section>
-                    
-            	</div>
+            <div class="span6">
+                	
+                    <p class="about-text">Heritage Hockey was founded on the idea that hockey players are paying too much money for leading brands of hockey sticks.  What is more is that the high costs are not justified by improved performance, or improved product life - the product offering is the same as it has been for years, and the costs have only increased.   Our mission is to solve this problem.</p>
+
+                    <p class="about-text">We will be offering a unique service where players are able to purchase hockey sticks on a regular basis.  Due to the low cost, players will be able to either swap out sticks they do not care for , or replace them as soon as they lose their “pop”.   As hockey players ourselves, we understand the need for this service and also understand the need for our sticks to perform as we have come to expect.  The sticks we sell you will feel every bit as responsive as a leading brand.  No stick will be sold that is not personally tested by the owners.  Period.  We would not use a product that would compromise our game, nor would we sell one to the hockey community. </p>
+
+            	
             </div>
         </div>
         <!-- End Portfolio Projects -->
@@ -285,15 +183,52 @@
 </div>
 <!-- End Our Work Section -->
 
+<div id="work" class="page-alternate">
+    <div class="container">
+       <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">How it works</h2>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="span4 text-center">
+            <div class="aboutus-item">
+                <i class="aboutus-icon fa fa-sign-in"></i>
+                <h4 class="aboutus-title">Sign up</h4>
+                <p class="aboutus-desc"> Our friendly service is easy to sign up for.  Create an account or simply log in through your favorite social application including twitter or facebook.  </p>
+             </div>
+        </div>   
+        <div class="span4 text-center">
+            <div class="aboutus-item">
+                <i class="aboutus-icon fa fa-shopping-cart"></i>
+                <h4 class="aboutus-title">Stick Selection</h4>
+                <p class="aboutus-desc"> Select the sticks and the subscription based plan you want for the upcoming season.   </p>
+             </div>
+        </div>  
+        <div class="span4 text-center">
+            <div class="aboutus-item">
+                <i class="aboutus-icon fa fa-rocket"></i>
+                <h4 class="aboutus-title">Delivery</h4>
+                <p class="aboutus-desc"> Sit back, turn on the NHL network and relax while your stick is shipped to you.  You will be scoring bar down in short order with your new Heritage Hockey stick!</p>
+             </div>
+        </div> 
+    </div>
+
+    </div>
+</div>
+<End Twitter Feed -->
+
 <!-- About Section -->
-<div id="about" class="page-alternate">
+<div id="about" class="page">
 <div class="container">
     <!-- Title Page -->
     <div class="row">
         <div class="span12">
             <div class="title-page">
                 <h2 class="title">About Us</h2>
-                <h3 class="title-description">Learn About our Team &amp; Culture.</h3>
+                <h3 class="title-description">Meet the team</h3>
             </div>
         </div>
     </div>
@@ -307,19 +242,18 @@
         	<div class="image-wrap">
                 <div class="hover-wrap">
                     <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">CTO/Founder</span>
+                    <span class="overlay-text-thumb">Founder</span>
                 </div>
-                <img src="_include/img/profile/profile-01.jpg" alt="John Doe">
+                <img src="_include/img/profile/profile-01.png" alt="Doug Jacobson">
             </div>
-            <h3 class="profile-name">John Doe</h3>
-            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            <h3 class="profile-name">Douglas Jacobson</h3>
+            <p class="profile-description">Doug graduated from the University of New Hampshire in 2006 with two degrees in engineering.  He has had a variety of roles within industry including reliability, design and nuclear systems engineering positions.   In 2010, he co-founded an algae-based biofuel startup in Virginia and was able to help secure over 125,000$ seed funding.</p>
             	
             <div class="social">
             	<ul class="social-icons">
-                	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
-                    <li><a href="#"><i class="font-icon-social-dribbble"></i></a></li>
-                    <li><a href="#"><i class="font-icon-social-facebook"></i></a></li>
+                	<li><a href="https://www.linkedin.com/in/doug-jacobson-0146626" target='_blank'><i class="font-icon-social-linkedin"></i></a></li>
+                    <li><a href="http://www.djunh.com"><i class="font-icon-inbox" target='_blank'></i></a></li>
+                    <li><a href="https://github.com/djunh1"><i class="font-icon-social-github" target='_blank'></i></a></li>
                 </ul>
             </div>
         </div>
@@ -330,46 +264,22 @@
         	<div class="image-wrap">
                 <div class="hover-wrap">
                     <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">Creative Director</span>
+                    <span class="overlay-text-thumb">Founder</span>
                 </div>
-                <img src="_include/img/profile/profile-02.jpg" alt="Jane Helf">
+                <img src="_include/img/profile/profile-02.png" alt="Brian DeAngelis">
             </div>
-            <h3 class="profile-name">Jane Helf</h3>
-            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            <h3 class="profile-name">Brian DeAngelis</h3>
+            <p class="profile-description">Brian graduated from Dartmouth College in 2011 and is currently pursuing a PhD from Yale in Neuroscience. He worked for several years at Opera Solutions as a Business Analyst prior to continuing his education at Yale.</p>
             	
             <div class="social">
             	<ul class="social-icons">
-                	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
-                    <li><a href="#"><i class="font-icon-social-email"></i></a></li>
+                	<li><a href="https://www.linkedin.com/in/brian-deangelis-8a90a939" target='_blank'><i class="font-icon-social-linkedin"></i></a></li>
                 </ul>
             </div>
         </div>
         <!-- End Profile -->
         
-        <!-- Start Profile -->
-    	<div class="span4 profile">
-        	<div class="image-wrap">
-                <div class="hover-wrap">
-                    <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">Lead Designer</span>
-                </div>
-                <img src="_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
-            </div>
-            <h3 class="profile-name">Joshua Insanus</h3>
-            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-            	
-            <div class="social">
-            	<ul class="social-icons">
-                	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
-                    <li><a href="#"><i class="font-icon-social-linkedin"></i></a></li>
-                    <li><a href="#"><i class="font-icon-social-google-plus"></i></a></li>
-                    <li><a href="#"><i class="font-icon-social-vimeo"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- End Profile -->
+      
         
     </div>
     <!-- End People -->
@@ -379,14 +289,14 @@
 
 
 <!-- Contact Section -->
-<div id="contact" class="page">
+<div id="contact" class="page-alternate">
 <div class="container">
     <!-- Title Page -->
     <div class="row">
         <div class="span12">
             <div class="title-page">
                 <h2 class="title">Get in Touch</h2>
-                <h3 class="title-description">We’re currently accepting new client projects. We look forward to serving you.</h3>
+                <h3 class="title-description">We would love to hear from you.</h3>
             </div>
         </div>
     </div>
@@ -422,7 +332,7 @@
         		<h3>Contact Details</h3>
                 <ul>
                     <li><a href="#">info@heritage-hockey</a></li>
-                    <li>(555) 555-5555</li>
+                    <li>1- (603) 969-8908</li>
                     <li>
                         Heritage Hockey
                         <br>
@@ -439,7 +349,7 @@
 </div>
 <!-- End Contact Section -->
 
-<!-- Twitter Feed -->
+<!-- Twitter Feed >
 <div id="twitter-feed" class="page-alternate">
 	<div class="container">
     	<div class="row">
@@ -454,14 +364,14 @@
         </div>
     </div>
 </div>
-<!-- End Twitter Feed -->
+<End Twitter Feed -->
 
 <!-- Socialize -->
 <div id="social-area" class="page">
 	<div class="container">
     	<div class="row">
             <div class="span12">
-                <nav id="social">
+                <!--nav id="social">
                     <ul>
                         <li><a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
                         <li><a href="http://dribbble.com/Bluxart" title="Follow Me on Dribbble" target="_blank"><span class="font-icon-social-dribbble"></span></a></li>
@@ -473,7 +383,7 @@
                         <li><a href="http://themeforest.net/user/Bluxart" title="Follow Me on ThemeForest" target="_blank"><span class="font-icon-social-envato"></span></a></li>
                         <li><a href="http://zerply.com/Bluxart/public" title="Follow Me on Zerply" target="_blank"><span class="font-icon-social-zerply"></span></a></li>
                     </ul>
-                </nav>
+                </nav-->
             </div>
         </div>
     </div>

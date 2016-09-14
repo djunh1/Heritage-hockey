@@ -1,11 +1,4 @@
-/*
-Theme Name: Brushed 
-Theme URI: http://www.themes.alessioatzeni.com/html/brushed/
-Author: Alessio Atzeni
-Author URI: http://www.alessioatzeni.com
-Description: Personal Website and Portfolio of Alessio Atzeni
-Version: 1.0
-*/
+
 
 
 /* ==================================================
@@ -240,6 +233,18 @@ h3.spec {
     line-height: 1em;
     margin-bottom: 30px;
     text-transform: uppercase;
+}
+
+.about-text{
+	font-size: 16px;
+	color: #F6F6F6;
+
+}
+
+.features-text{
+	font-size: 20px;
+	color: #F6F6F6;
+
 }
 
 
@@ -634,11 +639,15 @@ nav#menu #menu-nav li a:hover {
 	z-index: 99;
 }
 
-.page-alternate {
+.page-alternate, .page-contact {
 	background: #26292E;
 	padding: 100px 0;
 	position: relative;
 	z-index: 99;
+}
+
+.page-contact{
+	background: #583a3a;
 }
 
 .title-page {
@@ -655,6 +664,67 @@ nav#menu #menu-nav li a:hover {
 	font-size: 24px;
 	font-weight: 200;
 	margin: 0;
+}
+
+/*////////////////////////////////////////////////////////////////////////
+//  About us
+///////////////////////////////////////////////////////////////////////*/
+.portfolio-sec ,.services-sec ,.blog-sec , .testimonial-sec{
+  margin-top: 60px;
+}
+.about-sec {
+  margin-top: 40px;
+}
+
+.about-us {
+  background: #fff;
+  padding: 40px 0 80px;
+}
+
+.hr-hidden{
+  display: none;
+}
+
+
+@media (min-width: 320px) and (max-width: 1024px) { 
+      .about-us {
+      background: #fff;
+      padding: 45px 0;
+      color: #000;
+      text-align: center;
+    }
+
+}
+
+.aboutus-item {
+  margin-bottom: 15px;
+  margin-top: 60px;
+}
+
+i.aboutus-icon {
+  border: 3px solid rgb(106, 106, 106);
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+  color: rgb(106, 106, 106);
+}
+
+h4.aboutus-title {
+  margin-top: 23px;
+  font-weight: 100;
+  font-size: 34px;
+}
+
+p.aboutus-desc {
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: 0.4px;
+  color: #F6F6F6;
 }
 
 /* ==================================================
@@ -781,7 +851,8 @@ nav#menu #menu-nav li a:hover {
 }
 
 .profile-description {
-	margin-bottom: 25px;	
+	margin-bottom: 25px;
+	color: #decccc;
 }
 
 .image-wrap {
@@ -925,16 +996,16 @@ nav#menu #menu-nav li a:hover {
 
 #contact-form input,
 #contact-form textarea {
-    border: none;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-    border-radius: 0;
+    border: #fff;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+    border-radius: 9px;
 	
     -webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
 	
-	background: #26292E;
+	background: #000;
     color: #FFFFFF;
     font-size: 16px;
     height: auto;
@@ -960,7 +1031,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 #contact-form .submit {
-    background: #3C3F45;
+    background: #a2cef7;
     color: #23262C;
     cursor: pointer;
     display: inline-block;
